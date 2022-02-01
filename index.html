@@ -6,14 +6,34 @@
 <style>
 
 h1{color:blue;}
-
+.shieldLarge{width:200px;}
+.shieldSmall{width:160px;}
+#mainHeading{
+	color:red;
+}
 
 </style>
+
 </head>
 
 <body>
-	<h1 style="color:red;">Hello all of you!</h1>
+	<h1 id="mainHeading" ">Hello all of you!</h1>
 	<p>You should not wait until Sunday night to do your projects!</p>
-	<img src="images/lansche-red-shield.png" alt="Lansche shield">
-</body>
+	<img class="shieldLarge" src="images/small_lansche-red-shield.png" alt="Lansche shield" >
+	<img  class="shieldSmall" src="images/small_lansche-red-shield.png" alt="Lansche shield">
+	<h1 style="color:red;">This is my second h1</h1>
+	<ul>
+<li>eine katze</li>
+<li>ein hund</li>
+<li>ein elefant</li>
+	</ul>
+
+	<table style="border:dashed thick;">
+		<tr>
+<td><a href="page2.html">eine katze</a></td>
+<td>ein hund</td>
+<td><a href="https://www.google.com/"> ein elefant</a></td>
+<script>
+document.getElementById("mainHeading").style = "color:purple;";
+</script>
 </html>
